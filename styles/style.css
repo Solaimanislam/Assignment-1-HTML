@@ -6,13 +6,12 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #F00;
-    ;
     border: 0;
     font-size: 20px;
     color: #fff;
     font-family: Inter;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 16px 32px;
 }
 
 .banner {
@@ -210,7 +209,93 @@ body {
     margin: 0;
     margin-bottom: 40px;
 }
+
 .gift-image {
     margin: 5px;
     border-radius: 16px;
+}
+
+/* news letter */
+.news-letter {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+
+}
+
+.news-image {
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.newsletter-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.news-content {
+    width: 800px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px 250px;
+    margin: 0;
+}
+
+/* .news-input {
+    width: 630px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 300px;
+} */
+.input-box {
+    /* text-align: center; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input[type="text"] {
+    background: #fff;
+    width: 350px;
+    height: 50px;
+    padding: 0 25px;
+    border: none;
+    outline: none;
+    border-radius: 25px 0 0 25px;
+    font-family: Inter;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #F00;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
 }
