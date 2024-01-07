@@ -2,9 +2,11 @@ body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
 }
+
 .btn-primary {
     border-radius: 5px;
-    background: #F00;;
+    background: #F00;
+    ;
     border: 0;
     font-size: 20px;
     color: #fff;
@@ -107,6 +109,73 @@ body {
     font-weight: 400;
     margin-top: 20px;
 }
+
 .midnight-img {
     padding: 60px 0;
+}
+
+/* place styles */
+.place-span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.place-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.place-section {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 100px;
+}
+
+.holiday {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+}
+
+.holiday-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-content {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.holiday-span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.holiday-status {
+    color: rgba(7, 2, 17, 0.60);
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
 }
