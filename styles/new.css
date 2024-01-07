@@ -1,0 +1,112 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #F00;;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
+
+.banner-title {
+    width: 632px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-left: 340px;
+    margin: 0;
+}
+
+.section-off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.off-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.off-content {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.new-year-photo {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+/* mid night styles */
+.section-midnight {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 130px;
+    margin-top: 100px;
+}
+
+.midnight-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin: 0;
+}
+
+.midnight-content {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.midnight-img {
+    padding: 60px 0;
+}
