@@ -217,6 +217,7 @@ body {
     margin: auto;
     text-align: center;
     width: 800px;
+    padding-bottom: 60px;
 }
 
 .holiday-title {
@@ -249,16 +250,33 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-}
-/* .special-part {
-    margin: 0;
     
-    background-image: url('../resources/Rectangle\ 1.png');
+}
+.special {
+    display: flex;
     background-image: url('../resources/Rectangle\ 2.png');
-    position: relative;
     background-repeat: no-repeat;
-    padding-top: 400px 0;
-} */
+    background-position: bottom;
+    
+}
+.img-2 {
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    padding-right: 140px; 
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+.per-img-1 {
+    position: relative;
+    right: 60px;
+}
+.per-img {
+    position: relative;
+    top: 60px;
+    right: 150px;
+
+}
 
 .gift-status {
     color: #F00;
