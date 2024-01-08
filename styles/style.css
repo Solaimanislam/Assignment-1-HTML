@@ -250,6 +250,15 @@ body {
     font-weight: 500;
     line-height: 32px;
 }
+/* .special-part {
+    margin: 0;
+    
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-image: url('../resources/Rectangle\ 2.png');
+    position: relative;
+    background-repeat: no-repeat;
+    padding-top: 400px 0;
+} */
 
 .gift-status {
     color: #F00;
