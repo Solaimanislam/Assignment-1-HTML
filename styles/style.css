@@ -211,7 +211,7 @@ body {
     font-weight: 400;
     line-height: 32px;
 }
-
+/* holiday section  */
 
 .holiday {
     margin: auto;
@@ -252,6 +252,7 @@ body {
     line-height: 32px;
     
 }
+/* special holiday day section */
 .special {
     display: flex;
     background-image: url('../resources/Rectangle\ 2.png');
