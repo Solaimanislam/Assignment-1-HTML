@@ -108,12 +108,13 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+    margin-right: 40px;
 }
 
 .midnight-img {
     padding: 60px 0;
-}
 
+}
 /* place styles */
 .place-span {
     color: #F00;
