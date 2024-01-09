@@ -312,8 +312,11 @@ body {
 }
 
 .gift-image {
-    margin: 5px;
+    /* margin: 5px; */
     border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* news letter */
