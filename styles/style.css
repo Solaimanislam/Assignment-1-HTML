@@ -115,6 +115,7 @@ body {
     padding: 60px 0;
 
 }
+
 /* place styles */
 .place-span {
     color: #F00;
@@ -212,6 +213,7 @@ body {
     font-weight: 400;
     line-height: 32px;
 }
+
 /* holiday section  */
 
 .holiday {
@@ -251,28 +253,32 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    
+
 }
+
 /* special holiday day section */
 .special {
     display: flex;
     background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    
+
 }
+
 .img-2 {
     background-image: url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    padding-right: 140px; 
+    padding-right: 140px;
     position: relative;
     left: 100px;
     top: 5px;
 }
+
 .per-img-1 {
     position: relative;
     right: 60px;
 }
+
 .per-img {
     position: relative;
     top: 60px;
@@ -317,6 +323,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    position: relative
+}
+
+/* .hover-1 {
+    position: relative;
+
+} */
+
+.img-1 {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.hover-2:hover .img-1{
+    opacity: 0.5;
 }
 
 /* news letter */
